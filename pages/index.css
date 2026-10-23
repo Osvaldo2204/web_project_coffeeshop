@@ -17,6 +17,12 @@
   padding-bottom: 40px;
   background: #fff url("../images/background_header.svg") center / cover no-repeat;
 }
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 30px 80px 0;
+}
 
 .nav__logo {
   position: relative;
@@ -25,9 +31,12 @@
   height: 39px;
 }
 
-.nav__link {
+.nav__links {
   display: flex;
   gap: 20px;
+}
+
+.nav__link {
   color: #000;
   text-decoration: none;
 }
