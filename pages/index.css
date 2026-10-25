@@ -132,3 +132,35 @@
   font-size: 20px;
   line-height: 30px;
 }
+.reservation {
+  padding: 100px 80px 215px;
+  background: #fff url("../images/background_reservation.svg") center / cover no-repeat;
+}
+.reservation__title {
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 44px;
+line-height: 52px;
+}
+.reservation__label {
+ font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+}
+.reservation__input {
+ font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+}
+reservation__button {
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+}

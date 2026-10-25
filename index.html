@@ -70,7 +70,27 @@
     </div>
   </div>
 </section>
-      <section class="reserva" id="reservation"></section>
+      <section class="reservation" id="reservation">
+        <form class="reservation__form" action="https://formspree.io/f/mnqvydqj" method="POST">
+          <h2 class="reservation__title">Reservar uma mesa</h2>
+          <label class="reservation__label" for="name">Nome:</label>
+          <input class="reserva__input" type="text" id="name" name="name" required>
+
+          <label class="reservation__label" for="email">Email:</label>
+          <input class="reservation__input" type="email" id="email" name="_replyto" required>
+
+          <label class="reservation__label" for="date">Data e Hora</label>
+          <input class="reservation__input" type="datetime-local" id="date" name="date" required>
+          <label class="reservation__label" for="guests">Número de convidados:</label>
+          <input class="reservation__input" type="number" id="guests" name="guests" min="1" max="8" required>
+
+          <button class="reserva__button" type="submit">Reservar uma mesa</button>
+          <label class="reservation__label" for="termo">
+            <input class="reservation__input" type="checkbox" id="termo" name="termo" required>
+            Eu concordo com os termos de uso
+          </label>
+        </form>
+      </section>
     </main>
     <footer class="footer" id="contatos"></footer>
   </div>
