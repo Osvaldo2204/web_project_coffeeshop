@@ -1,5 +1,6 @@
 .footer {
   position: relative;
+  overflow: hidden;
   background-color: #0A2850;
   color: #ffffff;
   padding: 60px 80px;
@@ -12,7 +13,6 @@
   align-items: flex-start;
 }
 
-
 .footer__circle {
   position: absolute;
   top: -128px;
@@ -24,7 +24,6 @@
   z-index: 0;
 
 }
-
 
 .footer__logo {
   position: relative;
