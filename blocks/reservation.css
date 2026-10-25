@@ -11,3 +11,59 @@ font-weight: 500;
 font-size: 44px;
 line-height: 52px;
 }
+.reservation__form {
+  max-width: 385px;
+  margin: 0 auto;
+}
+.reservation__label {
+display: block;
+margin-bottom: 8px;
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+}
+.reservation__input {
+display: block;
+box-sizing: border-box;
+width: 100%;
+margin: 0 0 32px;
+padding: 15px 20px;
+border: 1px solid #bdbdbd;
+background: #fff;
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+}
+.reservation__button {
+display: block;
+width: 100%;
+height: 60px;
+border: none;
+background: #2f80ed;
+color: #fff;
+cursor: pointer;
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+}
+.reservation__terms {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 32px;
+  font-family: Inter;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.reservation__checkbox {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+}
