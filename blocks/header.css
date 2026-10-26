@@ -6,12 +6,11 @@
   height: 100vh;
   min-height: 720px;
   max-height: 800px;
-  padding-bottom: 40px;
+  padding: 30px 80px 40px;
   background: #fff url("../images/background_header.svg") center / cover no-repeat;
 }
 .header__title {
   max-width: 709px;
-  margin: 183px 0 0 80px;
   font-family: "Inter", Arial, sans-serif;
   font-weight: 500;
   font-size: 58px;
@@ -29,7 +28,6 @@
 
 .header__description {
   max-width: 683px;
-  margin: 28px 0 0 80px;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
@@ -51,6 +49,5 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  margin-top: auto; /* empurra o rodapé para o fim do header */
-  padding: 0 80px;
+  margin-top: auto;
 }
